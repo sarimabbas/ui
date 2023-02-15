@@ -1,9 +1,8 @@
+import { H3 } from "./components/typography";
+
 function App() {
-  return (
-    <div className="App">
-      <div className="text-lg font-bold text-cyan-100">Hello</div>
-    </div>
-  );
+  const text = `hello -> world`;
+  return <div className="App"></div>;
 }
 
 export default App;
