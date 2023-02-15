@@ -3,11 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/accordion";
-
-export default {
-  component: Accordion,
-};
+} from "../../components/accordion";
 
 export function AccordionDemo() {
   return (

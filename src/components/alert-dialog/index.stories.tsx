@@ -10,8 +10,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/alert-dialog";
-import { Button } from "@/components/button";
+} from "../../components/alert-dialog";
+import { Button } from "../../components/button";
 
 export function AlertDialogDemo() {
   return (
@@ -35,7 +35,3 @@ export function AlertDialogDemo() {
     </AlertDialog>
   );
 }
-
-export default {
-  component: AlertDialog,
-};
