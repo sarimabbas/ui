@@ -1,9 +1,10 @@
 {
   "name": "@doom.sh/ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -17,6 +18,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "prepublishOnly": "pnpm run build",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "sandbox": "ladle serve",
