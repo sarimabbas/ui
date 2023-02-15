@@ -28,6 +28,7 @@
   },
   "include": [
     "src",
+    ".ladle/components.tsx"
   ],
   "references": [
     {
