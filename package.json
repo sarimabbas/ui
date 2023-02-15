@@ -37,6 +37,7 @@
     "@radix-ui/react-tooltip": "^1.0.3",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
+    "cmdk": "^0.1.22",
     "lucide-react": "^0.114.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
