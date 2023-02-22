@@ -24,7 +24,6 @@ specifiers:
   '@radix-ui/react-slider': ^1.1.0
   '@radix-ui/react-switch': ^1.0.1
   '@radix-ui/react-tabs': ^1.0.2
-  '@radix-ui/react-toast': ^1.1.2
   '@radix-ui/react-toggle': ^1.0.1
   '@radix-ui/react-tooltip': ^1.0.3
   '@types/node': ^18.13.0
@@ -34,11 +33,13 @@ specifiers:
   class-variance-authority: ^0.4.0
   clsx: ^1.2.1
   cmdk: ^0.1.22
+  csstype: ^3.0.10
   lucide-react: ^0.114.0
   postcss: ^8.4.21
   prop-types: ^15.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-hot-toast: ^2.4.0
   tailwind-merge: ^1.9.1
   tailwindcss: ^3.2.6
   tailwindcss-animate: ^1.0.5
@@ -69,15 +70,16 @@ dependencies:
   '@radix-ui/react-slider': 1.1.0_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-switch': 1.0.1_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-tabs': 1.0.2_biqbaboplfbrettd7655fr4n2y
-  '@radix-ui/react-toast': 1.1.2_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-toggle': 1.0.1_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-tooltip': 1.0.3_zula6vjvt3wdocc4mwcxqa6nzi
   class-variance-authority: 0.4.0_typescript@4.9.5
   clsx: 1.2.1
   cmdk: 0.1.22_zula6vjvt3wdocc4mwcxqa6nzi
+  csstype: 3.1.1
   lucide-react: 0.114.0_react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-hot-toast: 2.4.0_owo25xnefcwdq3zjgtohz6dbju
   tailwind-merge: 1.9.1
   tailwindcss-animate: 1.0.5_tailwindcss@3.2.6
 
@@ -1673,29 +1675,6 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@radix-ui/react-toast/1.1.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Kpr4BBYoP0O5A1UeDBmao87UnCMNdAKGNioQH5JzEm6OYTUVGhuDRbOwoZxPwOZ6vsjJHeIpdUrwbiHEB65CCw==}
-    peerDependencies:
-      react: ^16.8 || ^17.0 || ^18.0
-      react-dom: ^16.8 || ^17.0 || ^18.0
-    dependencies:
-      '@babel/runtime': 7.20.13
-      '@radix-ui/primitive': 1.0.0
-      '@radix-ui/react-collection': 1.0.1_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-compose-refs': 1.0.0_react@18.2.0
-      '@radix-ui/react-context': 1.0.0_react@18.2.0
-      '@radix-ui/react-dismissable-layer': 1.0.2_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-portal': 1.0.1_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-presence': 1.0.0_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-primitive': 1.0.1_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-use-callback-ref': 1.0.0_react@18.2.0
-      '@radix-ui/react-use-controllable-state': 1.0.0_react@18.2.0
-      '@radix-ui/react-use-layout-effect': 1.0.0_react@18.2.0
-      '@radix-ui/react-visually-hidden': 1.0.1_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: false
-
   /@radix-ui/react-toggle/1.0.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-hZIp9ZKnw4NwVqeB4evWBLa91ryaSJhAO0Ed82wkzRPgg/I29ypcY6SuBb3AMZW+GsuBZpIVujpCq+33TdEcyg==}
     peerDependencies:
@@ -3008,6 +2987,14 @@ packages:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
     dev: true
 
+  /goober/2.1.12_csstype@3.1.1:
+    resolution: {integrity: sha512-yXHAvO08FU1JgTXX6Zn6sYCUFfB/OJSX8HHjDSgerZHZmFKAb08cykp5LBw5QnmyMcZyPRMqkdyHUSSzge788Q==}
+    peerDependencies:
+      csstype: ^3.0.10
+    dependencies:
+      csstype: 3.1.1
+    dev: false
+
   /graceful-fs/4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
@@ -4307,6 +4294,20 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: true
+
+  /react-hot-toast/2.4.0_owo25xnefcwdq3zjgtohz6dbju:
+    resolution: {integrity: sha512-qnnVbXropKuwUpriVVosgo8QrB+IaPJCpL8oBI6Ov84uvHZ5QQcTp2qg6ku2wNfgJl6rlQXJIQU5q+5lmPOutA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      goober: 2.1.12_csstype@3.1.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - csstype
+    dev: false
 
   /react-inspector/6.0.1_react@18.2.0:
     resolution: {integrity: sha512-cxKSeFTf7jpSSVddm66sKdolG90qURAX3g1roTeaN6x0YEbtWc8JpmFN9+yIqLNH2uEkYerWLtJZIXRIFuBKrg==}

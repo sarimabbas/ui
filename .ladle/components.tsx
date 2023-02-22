@@ -11,6 +11,6 @@ export const Provider: GlobalProvider = ({
 }) => (
   <>
     {children}
-    <Toaster />
+    <Toaster position="bottom-right" />
   </>
 );

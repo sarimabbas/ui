@@ -15,7 +15,6 @@
     }
   },
   "scripts": {
-    "dev:src": "pnpm build:src --watch",
     "build:src": "tsup --config ./tsup.config.ts",
     "dev:sandbox": "ladle serve",
     "build:sandbox": "ladle build",
@@ -44,15 +43,16 @@
     "@radix-ui/react-slider": "^1.1.0",
     "@radix-ui/react-switch": "^1.0.1",
     "@radix-ui/react-tabs": "^1.0.2",
-    "@radix-ui/react-toast": "^1.1.2",
     "@radix-ui/react-toggle": "^1.0.1",
     "@radix-ui/react-tooltip": "^1.0.3",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "cmdk": "^0.1.22",
+    "csstype": "^3.0.10",
     "lucide-react": "^0.114.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
     "tailwind-merge": "^1.9.1",
     "tailwindcss-animate": "^1.0.5"
   },

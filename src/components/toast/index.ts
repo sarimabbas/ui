@@ -1,2 +1,1 @@
-export * from "./toast";
-export * from "./toaster";
+export { toast, Toaster } from "react-hot-toast";
