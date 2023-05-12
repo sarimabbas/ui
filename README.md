@@ -1,11 +1,9 @@
 # UI
 
-Common UI for projects.
-
-Uses https://ui.shadcn.com/
+Common user interface elements for projects.
 
 ## Usage
 
 ```
-pnpm add @doom.sh/ui
+pnpm add @sarim.garden/ui
 ```
