@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.0
+
+### Major Changes
+
+- 937c6f8: Reorganize into server and client bundles
+
 ## 1.0.14
 
 ### Patch Changes
