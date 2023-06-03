@@ -1,3 +1,5 @@
+import "./styles/globals.css";
+
 // These are exports that can be used without a "use client" directive.
 
 export * from "./components/accordion";

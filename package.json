@@ -6,12 +6,27 @@
     "dist",
     "src"
   ],
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/barrel.js",
+      "types": "./dist/barrel.d.ts"
+    },
+    "./client": {
+      "import": "./dist/client-barrel.js",
+      "types": "./dist/client-barrel.d.ts"
+    },
+    "./css": {
+      "import": "./dist/barrel.css"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/barrel.d.ts"
+      ],
+      "./client": [
+        "./dist/client-barrel.d.ts"
+      ]
     }
   },
   "publishConfig": {

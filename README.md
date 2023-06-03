@@ -7,3 +7,7 @@ Common user interface elements for projects.
 ```
 pnpm add @sarim.garden/ui
 ```
+
+## How to Changesets
+
+1. `npx changeset`
