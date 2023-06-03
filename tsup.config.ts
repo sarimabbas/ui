@@ -1,9 +1,12 @@
 import { defineConfig } from "tsup";
+import prepend from "prepend-file";
 
 export default defineConfig({
-  entry: ["src/index.ts"],
+  entry: ["src/barrel.ts", "src/client-barrel.ts"],
   dts: true,
   clean: true,
-  splitting: true,
   format: ["esm"],
+  onSuccess: async () => {
+    await prepend("./dist/client-barrel.js", `"use client";\n`);
+  },
 });
