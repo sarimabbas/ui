@@ -1,6 +1,5 @@
 import { Button } from "@/components/button";
 import { toast } from "@/components/toast";
-import React from "react";
 
 export function ToastDemo() {
   return (
