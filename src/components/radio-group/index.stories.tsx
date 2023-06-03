@@ -1,5 +1,3 @@
-"use client";
-
 import { Label } from "@/components/label";
 import { RadioGroup, RadioGroupItem } from "@/components/radio-group";
 

@@ -1,5 +1,3 @@
-"use client";
-
 import { AspectRatio } from "@/components/aspect-ratio";
 
 export function AspectRatioDemo() {

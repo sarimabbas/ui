@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/button";
 import { toast } from "@/components/toast";
 import React from "react";
