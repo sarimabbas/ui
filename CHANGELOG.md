@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.5
+
+### Patch Changes
+
+- bc891e6: Fix css export
+
 ## 2.0.4
 
 ### Patch Changes
