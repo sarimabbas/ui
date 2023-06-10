@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.3
+
+### Patch Changes
+
+- 8e628bc: Fix typescript exportsx
+
 ## 2.0.2
 
 ### Patch Changes
