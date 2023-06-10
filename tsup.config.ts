@@ -7,6 +7,6 @@ export default defineConfig({
   clean: true,
   format: ["esm"],
   onSuccess: async () => {
-    await prepend("./dist/client-barrel.js", `"use client";\n`);
+    await prepend("./dist/index.js", `"use client";\n`);
   },
 });
