@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
-    "./css": "./dist/barrel.css"
+    "./css": "./dist/index.css"
   },
   "typesVersions": {
     "*": {
