@@ -3,7 +3,7 @@
   "version": "2.0.6",
   "type": "module",
   "exports": {
-    "./server": "./dist/server.js",
+    "./isomorphic": "./dist/isomorphic.js",
     "./client": "./dist/client.js",
     "./css": "./dist/client.css"
   },

@@ -2,7 +2,7 @@ import { defineConfig } from "tsup";
 import prepend from "prepend-file";
 
 export default defineConfig({
-  entry: ["src/server.ts", "src/client.ts"],
+  entry: ["src/isomorphic.ts", "src/client.ts"],
   dts: true,
   clean: true,
   format: ["esm"],
