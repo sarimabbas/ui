@@ -2,18 +2,14 @@
   "name": "@sarim.garden/ui",
   "version": "2.0.1",
   "type": "module",
-  "files": [
-    "dist",
-    "src"
-  ],
   "exports": {
     ".": {
-      "import": "./dist/barrel.js",
-      "types": "./dist/barrel.d.ts"
+      "types": "./dist/barrel.d.ts",
+      "import": "./dist/barrel.js"
     },
     "./client": {
-      "import": "./dist/client-barrel.js",
-      "types": "./dist/client-barrel.d.ts"
+      "types": "./dist/client-barrel.d.ts",
+      "import": "./dist/client-barrel.js"
     },
     "./css": {
       "import": "./dist/barrel.css"
@@ -21,11 +17,8 @@
   },
   "typesVersions": {
     "*": {
-      ".": [
-        "./dist/barrel.d.ts"
-      ],
-      "./client": [
-        "./dist/client-barrel.d.ts"
+      "*": [
+        "./dist/*"
       ]
     }
   },
