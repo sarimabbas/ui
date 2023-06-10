@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.1
+
+### Patch Changes
+
+- d0f27bd: Update dependencies
+
 ## 2.0.0
 
 ### Major Changes
