@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.7
+
+### Patch Changes
+
+- a6a9ed3: change "server" bundle to "isomorphic"
+
 ## 2.0.6
 
 ### Patch Changes
