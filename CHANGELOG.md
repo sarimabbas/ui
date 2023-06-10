@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.6
+
+### Patch Changes
+
+- e18cdae: Fix client/server bundles
+
 ## 2.0.5
 
 ### Patch Changes
