@@ -1,6 +1,6 @@
 {
   "name": "@sarim.garden/ui",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
