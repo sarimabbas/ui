@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.2
+
+### Patch Changes
+
+- 6d78450: Fix package.json
+
 ## 2.0.1
 
 ### Patch Changes
