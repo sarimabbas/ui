@@ -3,13 +3,14 @@
   "version": "2.0.5",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js",
-    "./css": "./dist/index.css"
+    "./server": "./dist/server.js",
+    "./client": "./dist/client.js",
+    "./css": "./dist/client.css"
   },
   "typesVersions": {
     "*": {
       "*": [
-        "./dist/index.d.ts"
+        "./dist/*"
       ]
     }
   },

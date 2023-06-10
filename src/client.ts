@@ -1,7 +1,5 @@
 import "./styles/globals.css";
 
-// These are exports that can be used without a "use client" directive.
-
 export * from "./components/accordion";
 export * from "./components/alert-dialog";
 export * from "./components/aspect-ratio";
@@ -32,4 +30,3 @@ export * from "./components/toast";
 export * from "./components/toggle";
 export * from "./components/tooltip";
 export * from "./components/typography";
-export * from "./lib/utils";
