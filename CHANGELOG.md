@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.4
+
+### Patch Changes
+
+- 390504a: make everything clietn
+
 ## 2.0.3
 
 ### Patch Changes
