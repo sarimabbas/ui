@@ -5,7 +5,8 @@
   "exports": {
     "./isomorphic": "./dist/isomorphic.js",
     "./client": "./dist/client.js",
-    "./css": "./dist/client.css"
+    "./css": "./dist/client.css",
+    "./tailwind-config": "./tailwind.config.cjs"
   },
   "typesVersions": {
     "*": {
