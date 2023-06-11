@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.0.8
+
+### Patch Changes
+
+- f19ed3f: add `.npmignore` file to ensure that `dist` is published to npm
+
 ## 2.0.7
 
 ### Patch Changes
