@@ -118,4 +118,4 @@ export function DataTable<TData, TValue>({
 }
 
 export { DataTableColumnHeader } from "./column-header";
-export { ColumnDef };
+export type { ColumnDef };
