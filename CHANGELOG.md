@@ -1,5 +1,12 @@
 # @sarim.garden/ui
 
+## 2.1.1
+
+### Patch Changes
+
+- 910e4b3: mark type imports from tanstack/table
+- f3f866c: fix columndef export
+
 ## 2.1.0
 
 ### Minor Changes
