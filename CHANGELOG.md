@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.1.0
+
+### Minor Changes
+
+- 8f83008: Add table and data table components
+
 ## 2.0.8
 
 ### Patch Changes
