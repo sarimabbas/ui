@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.1.2
+
+### Patch Changes
+
+- b650741: export tailwind config
+
 ## 2.1.1
 
 ### Patch Changes
