@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.1.3
+
+### Patch Changes
+
+- cbdb384: export css files
+
 ## 2.1.2
 
 ### Patch Changes
