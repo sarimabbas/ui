@@ -1,5 +1,5 @@
 import type { GlobalProvider } from "@ladle/react";
-import { Toaster } from "../src/components/toast";
+import { Toaster } from "../src/components/ui/toast";
 
 import "../src/styles/globals.css";
 
