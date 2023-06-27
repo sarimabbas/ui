@@ -1,4 +1,4 @@
-import { AspectRatio } from "@/components/aspect-ratio";
+import { AspectRatio } from "./aspect-ratio";
 
 export function AspectRatioDemo() {
   return (
