@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.1.4
+
+### Patch Changes
+
+- 8353592: Sarim/update shadcn
+
 ## 2.1.3
 
 ### Patch Changes
