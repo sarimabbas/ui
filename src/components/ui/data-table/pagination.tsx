@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../button";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/select";
+} from "../select";
 import { Table } from "@tanstack/react-table";
 import {
   ChevronLeft,
