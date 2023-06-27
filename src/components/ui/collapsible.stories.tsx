@@ -1,4 +1,4 @@
-import { ChevronsUpDown } from "lucide-react";
+import { CaretSortIcon } from "@radix-ui/react-icons";
 import * as React from "react";
 
 import { Button } from "./button";
@@ -23,7 +23,7 @@ export function CollapsibleDemo() {
         </h4>
         <CollapsibleTrigger asChild>
           <Button variant="ghost" size="sm" className="w-9 p-0">
-            <ChevronsUpDown className="h-4 w-4" />
+            <CaretSortIcon className="h-4 w-4" />
             <span className="sr-only">Toggle</span>
           </Button>
         </CollapsibleTrigger>
