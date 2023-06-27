@@ -1,4 +1,4 @@
-import { Button } from "@/components/button";
+import { Button } from "@/components/ui/button";
 import { toast } from "@/components/toast";
 
 export function ToastDemo() {

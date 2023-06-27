@@ -1,6 +1,6 @@
 import { Settings2 } from "lucide-react";
 
-import { Button } from "@/components/button";
+import { Button } from "@/components/ui/button";
 import { Input } from "@/components/input";
 import { Label } from "@/components/label";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/popover";

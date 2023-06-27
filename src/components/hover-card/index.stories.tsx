@@ -1,7 +1,7 @@
 import { CalendarDays } from "lucide-react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar";
-import { Button } from "@/components/button";
+import { Button } from "@/components/ui/button";
 import {
   HoverCard,
   HoverCardContent,

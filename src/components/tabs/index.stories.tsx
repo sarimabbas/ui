@@ -1,4 +1,4 @@
-import { Button } from "@/components/button";
+import { Button } from "@/components/ui/button";
 import { Input } from "@/components/input";
 import { Label } from "@/components/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs";
