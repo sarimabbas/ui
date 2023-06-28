@@ -1,3 +1,5 @@
+"use client";
+
 import "./styles/globals.css";
 
 export * from "./components/ui/accordion";
