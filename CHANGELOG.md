@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.1.5
+
+### Patch Changes
+
+- 67a89ac: Update dependencies, no need for 'preprend-file' with tsup anymore
+
 ## 2.1.4
 
 ### Patch Changes
