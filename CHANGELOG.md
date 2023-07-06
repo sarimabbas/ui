@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.2.0
+
+### Minor Changes
+
+- 8792233: add badge
+
 ## 2.1.5
 
 ### Patch Changes
