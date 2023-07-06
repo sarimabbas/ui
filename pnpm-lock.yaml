@@ -105,8 +105,8 @@ dependencies:
     specifier: ^3.1.2
     version: 3.1.2
   lucide-react:
-    specifier: ^0.256.0
-    version: 0.256.0(react@18.2.0)
+    specifier: ^0.258.0
+    version: 0.258.0(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -138,10 +138,10 @@ devDependencies:
     version: 2.26.2
   '@ladle/react':
     specifier: ^2.15.0
-    version: 2.15.0(@types/node@20.3.2)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.15.0(@types/node@20.4.0)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
-    specifier: ^20.3.2
-    version: 20.3.2
+    specifier: ^20.4.0
+    version: 20.4.0
   '@types/react':
     specifier: ^18.2.14
     version: 18.2.14
@@ -162,10 +162,10 @@ devDependencies:
     version: 3.3.2
   tsup:
     specifier: ^7.1.0
-    version: 7.1.0(postcss@8.4.24)(typescript@5.1.5)
+    version: 7.1.0(postcss@8.4.24)(typescript@5.1.6)
   typescript:
-    specifier: ^5.1.5
-    version: 5.1.5
+    specifier: ^5.1.6
+    version: 5.1.6
   zx:
     specifier: ^7.2.2
     version: 7.2.2
@@ -1066,7 +1066,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@ladle/react@2.15.0(@types/node@20.3.2)(react-dom@18.2.0)(react@18.2.0):
+  /@ladle/react@2.15.0(@types/node@20.4.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-rEl5WU1f0YQO+oXFV9fh2FQUHdXR/k4waLxHBnVyJoQvNvZKZJiKSXkzi7kNIxQazK5iVla12pbhlvDe2jR/Yw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
@@ -1111,7 +1111,7 @@ packages:
       remark-gfm: 3.0.1
       source-map: 0.7.4
       vfile: 5.3.7
-      vite: 4.3.9(@types/node@20.3.2)
+      vite: 4.3.9(@types/node@20.4.0)
       vite-tsconfig-paths: 3.6.0(vite@4.3.9)
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -2701,7 +2701,7 @@ packages:
     resolution: {integrity: sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.3.2
+      '@types/node': 20.4.0
     dev: true
 
   /@types/hast@2.3.4:
@@ -2719,7 +2719,7 @@ packages:
   /@types/jsonfile@6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.4.0
     dev: true
 
   /@types/mdast@3.0.11:
@@ -2744,12 +2744,12 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node@18.16.18:
-    resolution: {integrity: sha512-/aNaQZD0+iSBAGnvvN2Cx92HqE5sZCPZtx2TsK+4nvV23fFe09jVDvpArXr2j9DnYlzuU9WuoykDDc6wqvpNcw==}
+  /@types/node@18.16.19:
+    resolution: {integrity: sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==}
     dev: true
 
-  /@types/node@20.3.2:
-    resolution: {integrity: sha512-vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw==}
+  /@types/node@20.4.0:
+    resolution: {integrity: sha512-jfT7iTf/4kOQ9S7CHV9BIyRaQqHu67mOjsIQBC3BKZvzvUB6zLxEwJ6sBE3ozcvP8kF6Uk5PXN0Q+c0dfhGX0g==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -2800,7 +2800,7 @@ packages:
       vite: ^4
     dependencies:
       '@swc/core': 1.3.66
-      vite: 4.3.9(@types/node@20.3.2)
+      vite: 4.3.9(@types/node@20.4.0)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -2816,7 +2816,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.3.9(@types/node@20.3.2)
+      vite: 4.3.9(@types/node@20.4.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4710,8 +4710,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.256.0(react@18.2.0):
-    resolution: {integrity: sha512-uqw4MijZS29zePSBtkEIdOAp2Mn2mE6lVgFxaUd/MpclVUOuwacpRF67s1y3ErEIcR9aSBO0F1e6G56Ci8VUKA==}
+  /lucide-react@0.258.0(react@18.2.0):
+    resolution: {integrity: sha512-3evnpKadBrjLr2HHJ66eDZ1y0vPS6pm8NiNDaLqhddUUyJGnA+lfDPZfbVkuAFq7Xaa1TEy7Sg17sM7mHpMKrA==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -6557,7 +6557,7 @@ packages:
     engines: {node: '>=0.6.x'}
     dev: true
 
-  /tsup@7.1.0(postcss@8.4.24)(typescript@5.1.5):
+  /tsup@7.1.0(postcss@8.4.24)(typescript@5.1.6):
     resolution: {integrity: sha512-mazl/GRAk70j8S43/AbSYXGgvRP54oQeX8Un4iZxzATHt0roW0t6HYDVZIXMw0ZQIpvr1nFMniIVnN5186lW7w==}
     engines: {node: '>=16.14'}
     hasBin: true
@@ -6588,7 +6588,7 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.32.0
       tree-kill: 1.2.2
-      typescript: 5.1.5
+      typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -6644,8 +6644,8 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
-  /typescript@5.1.5:
-    resolution: {integrity: sha512-FOH+WN/DQjUvN6WgW+c4Ml3yi0PH+a/8q+kNIfRehv1wLhWONedw85iu+vQ39Wp49IzTJEsZ2lyLXpBF7mkF1g==}
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -6847,12 +6847,12 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.3
       tsconfig-paths: 4.2.0
-      vite: 4.3.9(@types/node@20.3.2)
+      vite: 4.3.9(@types/node@20.4.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.3.9(@types/node@20.3.2):
+  /vite@4.3.9(@types/node@20.4.0):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6877,7 +6877,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.4.0
       esbuild: 0.17.19
       postcss: 8.4.24
       rollup: 3.25.3
@@ -7104,7 +7104,7 @@ packages:
     dependencies:
       '@types/fs-extra': 11.0.1
       '@types/minimist': 1.2.2
-      '@types/node': 18.16.18
+      '@types/node': 18.16.19
       '@types/ps-tree': 1.1.2
       '@types/which': 3.0.0
       chalk: 5.2.0
