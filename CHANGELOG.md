@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.4.0
+
+### Minor Changes
+
+- 41fe024: add dark mode utils
+
 ## 2.3.0
 
 ### Minor Changes
