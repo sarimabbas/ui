@@ -1,6 +1,6 @@
 {
   "name": "@sarim.garden/ui",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "type": "module",
   "exports": {
     "./isomorphic": "./dist/isomorphic.js",

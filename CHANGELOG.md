@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.4.1
+
+### Patch Changes
+
+- c7f2e80: fix dark mode exports
+
 ## 2.4.0
 
 ### Minor Changes
