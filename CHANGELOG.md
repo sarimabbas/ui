@@ -1,5 +1,11 @@
 # @sarim.garden/ui
 
+## 2.4.2
+
+### Patch Changes
+
+- 0361565: improve data table spacing
+
 ## 2.4.1
 
 ### Patch Changes
