@@ -60,10 +60,8 @@ export function DataTable<TData, TValue>({
   });
 
   return (
-    <div>
-      <div className="flex items-center py-4 gap-4">
-        <DataTableViewOptions table={table} />
-      </div>
+    <div className="flex flex-col gap-4">
+      <DataTableViewOptions table={table} />
       <div className="rounded-md border">
         <Table>
           <TableHeader>
